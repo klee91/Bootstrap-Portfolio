@@ -1,0 +1,88 @@
+body {
+	background-image: url(https://s28.postimg.org/vsaii2pvh/halftone.png);
+}
+ p {
+	font-size: 140%;
+	line-height: 1.6em;
+ }
+
+#header {
+	font-family: Georgia, sans-serif;
+	color: #FFF;
+	background-color: #4aaaa5;
+	font-weight: bold;
+	font-size: 24px;
+	position: static;
+}
+
+.navbar {
+	background-color: #FFF;
+}
+
+.mainTitle {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.page-header {
+	font-family: Georgia, sans-serif;
+	font-weight: bold;
+	color: #4aaaa5;
+}	
+
+.navRight {
+	font-family: Arial, serif;
+	font-size: 120%;
+	position: absolute;
+}
+
+#contentBox {
+	background-color: #FFF;
+	padding-bottom: 2%;
+	margin: 2% 0% 2% 2%;
+}
+ #sidebar {
+ 	margin-top: 2%;
+ }
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+	padding: 20px;
+  	position: absolute;
+  	bottom: 0;
+  	width: 100%;
+  	height: 60px;
+	background-color: #666666;
+	border-top: solid 4px #4aaaa5;
+}
+
+.pull-right {
+	float: right !important;
+}
+
+.port-img {
+	width: 100%;
+	position: relative;
+	margin: auto;
+}
+.textOverlay {
+	top: -50px;
+    padding: 3px 0px 3px 0px;
+    width: 100%;
+    bottom: 1.2rem;
+    position: relative;
+    text-align: center;
+    background-color: #4AAAA5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #FFF;
+}
+
+.icon {
+	padding: 0 2%;
+}
